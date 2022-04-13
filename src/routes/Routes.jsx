@@ -1,3 +1,4 @@
+
 import { Switch, Route } from "react-router";
 
 const Routes = () => {
@@ -10,3 +11,4 @@ const Routes = () => {
   );
 };
 export { Routes };
+
