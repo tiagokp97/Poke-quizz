@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const MobileNav = styled.div`
-  font-size: 0.85rem;
-
   animation: myAnim 0.5s ease 0s 1 normal forwards;
 
   @keyframes myAnim {
@@ -17,6 +15,7 @@ export const MobileNav = styled.div`
     }
   }
 
+  font-size: 0.85rem;
   position: fixed;
   right: 0;
   top: 0;
@@ -60,8 +59,11 @@ export const MobileNav = styled.div`
     justify-content: space-around;
     align-items: center;
     font-size: 1rem;
-
     .sairMenu {
+      display: none;
+    }
+
+    button {
       display: none;
     }
 
