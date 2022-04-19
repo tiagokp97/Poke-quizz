@@ -1,4 +1,3 @@
-
 import { Switch, Route } from "react-router";
 
 const Routes = () => {
@@ -6,9 +5,8 @@ const Routes = () => {
     <Switch>
       <Route exact path="/"></Route>
       <Route exact path="/pokequiz"></Route>
-      <Route exact path={`/pokequiz/:${modalidade}`}></Route>
+      {/* <Route exact path={`/pokequiz/:${modalidade}`}></Route> */}
     </Switch>
   );
 };
 export { Routes };
-
