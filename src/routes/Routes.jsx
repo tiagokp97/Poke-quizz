@@ -1,6 +1,8 @@
 import { Switch, Route } from "react-router";
 import { LandingPage } from "../pages/LandingPage/LandingPage";
 
+import { GamePage } from "../components/gamePage/gamePage";
+
 const Routes = () => {
   return (
     <Switch>
