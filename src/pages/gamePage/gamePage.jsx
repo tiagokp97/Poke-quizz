@@ -1,9 +1,9 @@
-import { Buttons } from "../buttons/buttons";
 import { useState } from "react";
 
 import { GamePageStyles } from "./styles";
 
-import { MobileMenu } from "../MobileMenu/MobileMenu";
+import { MobileMenu } from "../../components/MobileMenu/MobileMenu";
+import { Buttons } from "../../components/buttons/buttons";
 const GamePage = () => {
   const [showMenu, setShowMenu] = useState(false);
   const handleClick = () => {
