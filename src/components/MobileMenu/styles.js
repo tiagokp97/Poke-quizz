@@ -46,7 +46,7 @@ export const MobileNav = styled.div`
     background-color: #fff;
 
     position: absolute;
-    bottom: 0;
+    bottom: 200px;
   }
 
   .sairMenu:hover {
