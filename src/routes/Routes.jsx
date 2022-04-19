@@ -10,12 +10,10 @@ const Routes = () => {
   return (
     <Switch>
       <Route exact path="/">
-
-        <HeaderLandingPage></HeaderLandingPage>
+        {/* <HeaderLandingPage /> */}
 
         {/* <LandingPage /> */}
         <GamePage />
-
       </Route>
       <Route exact path="/pokequiz"></Route>
 
