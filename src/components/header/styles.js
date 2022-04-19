@@ -20,6 +20,8 @@ export const StyledHeader = styled.header`
   }
 
   @media (min-width: 768px) {
+    height: 100px;
+
     .buttonMenu {
       display: none;
     }
