@@ -68,7 +68,7 @@ export const StyledProject = styled.main`
     #fce9ae 80%
   );
   background: -moz-linear-gradient(10deg, #e16042 0%, #ec9f5d 40%, #fce9ae 80%);
-  border-bottom: 2px solid black;
+  border-bottom: solid 2px #2c2c2c;
 `;
 
 export const StyledSobre = styled.main`
@@ -82,7 +82,7 @@ export const StyledSobre = styled.main`
     #fffac6 80%
   );
   background: -moz-linear-gradient(10deg, #6279b8 0%, #58bced 40%, #fffac6 80%);
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px #2c2c2c;
 `;
 
 export const StyledContatos = styled.main`
