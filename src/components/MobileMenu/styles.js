@@ -53,4 +53,18 @@ export const MobileNav = styled.div`
   .sairMenu:hover {
     cursor: pointer;
   }
+
+  @media (min-width: 768px) {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+
+    .sairMenu {
+      display: none;
+    }
+
+    animation: myAnim 0s ease 0s 1 normal forwards;
+  }
 `;
