@@ -1,7 +1,21 @@
 import styled from "styled-components";
 
 export const MobileNav = styled.div`
-  font-size: 1rem;
+  font-size: 0.85rem;
+
+  animation: myAnim 0.5s ease 0s 1 normal forwards;
+
+  @keyframes myAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
   position: fixed;
   right: 0;
@@ -25,7 +39,9 @@ export const MobileNav = styled.div`
   }
 
   .sairMenu {
-    font-size: 1rem;
+    width: 100%;
+    text-align: start;
+    font-size: 0.85rem;
     border: none;
     height: 40px;
     background-color: #fff;
