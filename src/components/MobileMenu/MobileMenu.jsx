@@ -10,7 +10,16 @@ const MobileMenu = () => {
   return (
     <>
       <Buttons text="Menu" handleClick={handleClick} />
-      {showMenu && <MobileNav />}
+
+      {showMenu && (
+        <MobileNav>
+          <div>Quem é esse Pokémon</div>
+          <div>Quiz Evolução</div>
+          <div>Quiz Tipo</div>
+          <div>Quiz Berry</div>
+          <div className="sairMenu">Sair</div>
+        </MobileNav>
+      )}
     </>
   );
 };
