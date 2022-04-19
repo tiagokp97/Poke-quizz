@@ -1,12 +1,12 @@
 import { Switch, Route } from "react-router";
 
-import { MobileMenu } from "../components/MobileMenu/MobileMenu";
+import { GamePage } from "../components/gamePage/gamePage";
 
 const Routes = () => {
   return (
     <Switch>
       <Route exact path="/">
-        <MobileMenu />
+        <GamePage />
       </Route>
       <Route exact path="/pokequiz"></Route>
 
