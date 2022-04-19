@@ -5,9 +5,7 @@ import { GamePage } from "../components/gamePage/gamePage";
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/">
-        <GamePage />
-      </Route>
+      <Route exact path="/"></Route>
       <Route exact path="/pokequiz"></Route>
 
       {/* <Route exact path={`/pokequiz/:${modalidade}`}></Route> */}
