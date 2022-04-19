@@ -10,6 +10,8 @@ const Routes = () => {
       <Route exact path="/">
         <LandingPage></LandingPage>
         {/* <GamePage /> */}
+
+        <GamePage />
       </Route>
       <Route exact path="/pokequiz"></Route>
 

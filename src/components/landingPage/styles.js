@@ -53,6 +53,10 @@ export const StyledLandingHeader = styled.header`
     transition: all 0.5s ease-out;
   }
 
+  .contatos {
+    background: linear-gradient(to right, #379fdc 20%, #2c2c2c 50%);
+  }
+
   .contatos:hover {
     background-position: left bottom;
     color: #fce9ae;

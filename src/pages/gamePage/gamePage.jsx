@@ -1,22 +1,13 @@
-import { Buttons } from "../../components/buttons/buttons";
-import { useState } from "react";
-
 import { GamePageStyles } from "./styles";
+import professor from "../../assets/professor.png";
 
-import { MobileMenu } from "../../components/MobileMenu/MobileMenu";
-import logo from "../../assets/logo.png";
+import { Header } from "../../components/header/header";
+
 const GamePage = () => {
-  const [showMenu, setShowMenu] = useState(false);
-  const handleClick = () => {
-    setShowMenu(!showMenu);
-  };
-
   return (
     <GamePageStyles>
-      <Buttons className="buttonMenu" text="Menu" handleClick={handleClick} />;
-      <img src={logo} alt="logo" />
-      <MobileMenu />
-      {showMenu && <MobileMenu />}
+      <Header />
+      <img className="professor" src={professor} alt="professor" />
     </GamePageStyles>
   );
 };
