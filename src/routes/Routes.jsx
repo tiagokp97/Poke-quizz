@@ -5,7 +5,10 @@ const Routes = () => {
     <Switch>
       <Route exact path="/"></Route>
       <Route exact path="/pokequiz"></Route>
-      {/* <Route exact path={`/pokequiz/:${modalidade}`}></Route> */}
+
+      <Route exact path={`/pokequiz/:${modalidade}`}></Route>
+      <Routes exact path={`/contato`}></Routes>
+
     </Switch>
   );
 };
