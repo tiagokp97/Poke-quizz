@@ -20,6 +20,7 @@ export const StyledLandingHeader = styled.header`
     padding: 2px;
   }
 
+
   .projeto {
     background: linear-gradient(to right, #e16042 20%, #2c2c2c 50%);
     background-size: 200% 100%;
@@ -34,6 +35,7 @@ export const StyledLandingHeader = styled.header`
 
   .sobre {
     background: linear-gradient(to right, #379fdc 20%, #2c2c2c 50%);
+
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all 0.5s ease-out;
@@ -42,14 +44,18 @@ export const StyledLandingHeader = styled.header`
   .sobre:hover {
     background-position: left bottom;
     color: #fce9ae;
+
   }
 
   .contatos {
     background: linear-gradient(to right, #4c9f70 20%, #2c2c2c 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
-    transition: all 0.5s ease-out;
+
+    /* animation: colorRed, 1s, forwards; */
   }
+
+  .contatos {
+    background: linear-gradient(to right, #379fdc 20%, #2c2c2c 50%);
+
 
   .contatos:hover {
     background-position: left bottom;
@@ -68,11 +74,13 @@ export const StyledProject = styled.main`
     #fce9ae 80%
   );
   background: -moz-linear-gradient(10deg, #e16042 0%, #ec9f5d 40%, #fce9ae 80%);
+
   border-bottom: solid 2px #2c2c2c;
-`;
+
 
 export const StyledSobre = styled.main`
   height: 100vh;
+
   background: #6279b8;
   background: linear-gradient(10deg, #6279b8 0%, #58bced 40%, #fffac6 80%);
   background: -webkit-linear-gradient(
@@ -101,4 +109,5 @@ export const StyledContatos = styled.main`
     #8fc28d 40%,
     #ebe291 100%
   );
+
 `;

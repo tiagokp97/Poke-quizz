@@ -1,3 +1,4 @@
+
 import {
   StyledLandingHeader,
   StyledProject,
@@ -6,11 +7,13 @@ import {
 } from "./styles";
 import { Link } from "react-scroll";
 
+
 const HeaderLandingPage = () => {
   return (
     <>
       <StyledProject title="section 1" id="section1">
         <StyledLandingHeader>
+
           <Link
             className="projeto"
             activeClass="active"
@@ -27,6 +30,7 @@ const HeaderLandingPage = () => {
             to="section2"
             spy={true}
             smooth={true}
+
             duration={500}
           >
             Sobre
@@ -34,6 +38,7 @@ const HeaderLandingPage = () => {
           <Link
             className="contatos"
             activeClass="active"
+
             to="section3"
             spy={true}
             smooth={true}
@@ -41,11 +46,14 @@ const HeaderLandingPage = () => {
           >
             contatos
           </Link>
+
         </StyledLandingHeader>
       </StyledProject>
 
       <StyledSobre title="section 2" id="section2"></StyledSobre>
+
       <StyledContatos title="section 3" id="section3"></StyledContatos>
+
     </>
   );
 };

@@ -1,7 +1,10 @@
-import { Children } from "react";
 import { StyledButtons } from "./styles";
 
-const Buttons = ({ Children }) => {
-  return <StyledButtons>{Children}</StyledButtons>;
+const Buttons = ({ text, handleClick, className }) => {
+  return (
+    <StyledButtons className={className} onClick={handleClick}>
+      {text}
+    </StyledButtons>
+  );
 };
 export { Buttons };

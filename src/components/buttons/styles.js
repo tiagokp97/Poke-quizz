@@ -11,5 +11,6 @@ export const StyledButtons = styled.button`
   :hover {
     border: 2px solid #fff;
     background-color: #fbcc01;
+    cursor: pointer;
   }
 `;
