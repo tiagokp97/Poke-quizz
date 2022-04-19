@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const MobileNav = styled.div`
+  font-size: 1rem;
+
   position: fixed;
   right: 0;
   top: 0;
@@ -23,7 +25,16 @@ export const MobileNav = styled.div`
   }
 
   .sairMenu {
+    font-size: 1rem;
+    border: none;
+    height: 40px;
+    background-color: #fff;
+
     position: absolute;
     bottom: 0;
+  }
+
+  .sairMenu:hover {
+    cursor: pointer;
   }
 `;

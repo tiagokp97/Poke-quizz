@@ -17,7 +17,9 @@ const MobileMenu = () => {
           <div>Quiz Evolução</div>
           <div>Quiz Tipo</div>
           <div>Quiz Berry</div>
-          <div className="sairMenu">Sair</div>
+          <button className="sairMenu" onClick={handleClick}>
+            Sair
+          </button>
         </MobileNav>
       )}
     </>
