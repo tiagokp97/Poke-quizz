@@ -1,6 +1,6 @@
 import { Routes } from "./routes/Routes";
 import "./App.css";
-import { LandingPage } from "./pages/LandingPage/LandingPage";
+import { LandingPage } from "./components/landingPage/landingPage";
 
 function App() {
   return (

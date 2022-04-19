@@ -60,6 +60,8 @@ table {
     background: teal;
     font-family: Opens-sans, Helvetica, Sans-Serif;
     font-size: 10px;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+
 }
 `;
 
