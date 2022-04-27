@@ -16,17 +16,21 @@ export const MobileNav = styled.div`
   }
 
   font-size: 0.85rem;
+  color: var(--yellow);
+
+  background-color: var(--blue);
   position: fixed;
+
   right: 0;
   top: 0;
   width: 50%;
   height: 100vh;
-  background-color: #fff;
 
   div {
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 5px;
     box-sizing: border-box;
   }
@@ -43,14 +47,16 @@ export const MobileNav = styled.div`
     font-size: 0.85rem;
     border: none;
     height: 40px;
-    background-color: #fff;
-
     position: absolute;
     bottom: 200px;
+    background-color: var(--blue);
+    color: var(--yellow);
+    text-align: center;
   }
 
   .sairMenu:hover {
     cursor: pointer;
+    border-bottom: 2px solid black;
   }
 
   @media (min-width: 768px) {
@@ -59,9 +65,6 @@ export const MobileNav = styled.div`
     justify-content: space-around;
     align-items: center;
     font-size: 1rem;
-    .sairMenu {
-      display: none;
-    }
 
     button {
       display: none;

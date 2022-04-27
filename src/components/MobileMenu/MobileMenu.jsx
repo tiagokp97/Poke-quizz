@@ -5,9 +5,9 @@ const MobileMenu = ({ handleClick }) => {
     <>
       <MobileNav>
         <div>Quem é esse Pokémon</div>
-        <div>Quiz Evolução</div>
-        <div>Quiz Tipo</div>
-        <div>Quiz Berry</div>
+        <div>Repo</div>
+        <div>Feedback</div>
+        <div>Landing Page</div>
         <button className="sairMenu" onClick={handleClick}>
           Sair
         </button>

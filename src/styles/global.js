@@ -1,6 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
+:root{
+	--yellow: #FBCC01;
+	--blue: #385BA8;
+}
+
+
 body {
 
     margin: 0;
