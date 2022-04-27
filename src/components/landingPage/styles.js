@@ -132,7 +132,6 @@ export const StyledContatos = styled.main`
       color: #2c2c2c;
       font-size: 17px;
       background: -webkit-linear-gradient(#eee, black);
-      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       filter: brightness(0.8);
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -179,7 +178,6 @@ export const StyledContatos = styled.main`
       color: black;
       font-size: 14px;
       background: -webkit-linear-gradient(#eee, #333);
-      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: myAnim 1s ease 0s 1 normal forwards;
       filter: brightness(0.8);

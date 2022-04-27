@@ -1,10 +1,6 @@
 import React from "react";
 
 export default function ModalContato({ setShowModal }) {
-  const closeModal = () => {
-    setShowModal(false);
-  };
-
   return (
     <div className="container-infos">
       <a

@@ -57,7 +57,6 @@ const LandingPage = () => {
               <h1>Olá, somos Tiago e Cauê.</h1>
               <h2>Frontend devs</h2>
               <h2>Com foco em react</h2>
-              <h2></h2>
             </div>
             <div className="container-contatos">
               <img
