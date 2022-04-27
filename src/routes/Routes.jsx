@@ -8,7 +8,7 @@ const Routes = () => {
   return (
     <Switch>
       <Route exact path="/">
-        <LandingPage></LandingPage>
+        {/* <LandingPage></LandingPage> */}
         {/* <GamePage /> */}
 
         <GamePage />
