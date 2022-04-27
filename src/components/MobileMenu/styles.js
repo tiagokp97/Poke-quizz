@@ -2,6 +2,13 @@ import styled from "styled-components";
 
 export const MobileNav = styled.div`
   animation: myAnim 0.5s ease 0s 1 normal forwards;
+  z-index: 2;
+
+  font-family: "Joti One", cursive;
+  font-size: 2rem;
+  color: #ffcb04;
+  text-shadow: 3px 3px 0 #39569e, -1px -1px 0 #39569e, 1px -1px 0 #39569e,
+    -1px 4px 0 #39569e, 1px 1px 0 #39569e;
 
   @keyframes myAnim {
     0% {

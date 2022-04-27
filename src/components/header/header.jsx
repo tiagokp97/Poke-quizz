@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <StyledHeader>
-      <img src={logo} alt="logo" />
+      <h1>PokéQuiz</h1>
       <div className="desktopMenu">
         <MobileMenu />
       </div>

@@ -8,8 +8,20 @@ export const StyledHeader = styled.header`
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  img {
-    height: 100%;
+  h1 {
+    font-family: "Joti One", cursive;
+    font-size: 2rem;
+    color: #ffcb04;
+    text-shadow: 3px 3px 0 #39569e, -1px -1px 0 #39569e, 1px -1px 0 #39569e,
+      -1px 4px 0 #39569e, 1px 1px 0 #39569e;
+  }
+
+  button {
+    font-family: "Joti One", cursive;
+    font-size: 1rem;
+    color: #ffcb04;
+    text-shadow: 3px 3px 0 #39569e, -1px -1px 0 #39569e, 1px -1px 0 #39569e,
+      -1px 4px 0 #39569e, 1px 1px 0 #39569e;
   }
 
   .buttonMenu {
