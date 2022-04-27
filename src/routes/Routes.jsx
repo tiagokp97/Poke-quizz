@@ -11,7 +11,7 @@ const Routes = () => {
         {/* <LandingPage></LandingPage> */}
         {/* <GamePage /> */}
 
-        <GamePage />
+        {/* <GamePage /> */}
       </Route>
       <Route exact path="/pokequiz"></Route>
 

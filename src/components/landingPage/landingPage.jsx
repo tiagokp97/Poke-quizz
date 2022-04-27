@@ -5,10 +5,12 @@ import {
   StyledContatos,
 } from "./styles";
 import { Link } from "react-scroll";
-import devTiago from "../../assets/devTiago.jpg";
-import devCaue from "../../assets/devCaue.jpg";
 import linkedin from "../../assets/linkedin.png";
+import github from "../../assets/github.png";
+import ModalContato from "../ModalContato/ModalContato";
+import { useState } from "react";
 const LandingPage = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
       <StyledProject title="section 1" id="section1">
@@ -51,24 +53,27 @@ const LandingPage = () => {
       <StyledContatos title="section 3" id="section3">
         <aside>
           <div className="container">
-            <img src={devTiago} alt="dev" />
-
             <div className="container-dialogo">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Laboriosam, itaque. Quisquam omnis, soluta neque sunt officia
-                delectus excepturi dicta labore placeat expedita magni,
-                inventore ipsam facere cum, quam blanditiis? Aut.
-              </p>
+              <h1>Olá, somos Tiago e Cauê.</h1>
+              <h2>Frontend devs</h2>
+              <h2>Com foco em react</h2>
             </div>
-            <img src={linkedin} alt="linkedin" className="linkedin" />
-          </div>
-        </aside>
-
-        <aside>
-          <div className="container">
-            <img src={devCaue} alt="dev" />
-            <img src={linkedin} alt="linkedin" className="linkedin" />
+            <div className="container-contatos">
+              <img
+                src={linkedin}
+                alt="linkedin"
+                className="linkedin"
+                onClick={() => setShowModal(!showModal)}
+              />
+              <a
+                href="https://github.com/tiagokp97/poke-quizz"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={github} alt="github" className="github" />
+              </a>
+              {showModal && <ModalContato setShowModal={setShowModal} />}
+            </div>
           </div>
         </aside>
       </StyledContatos>
